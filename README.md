@@ -22,6 +22,38 @@ product distribution and marketing for maximum profit.
 6. Tracked monthly/quarterly sales trend over time (Line Chart)
 7. Combined regional + category + time-based insights to build final recommendation
 
+## Dashboard
+
+### Overview
+Key metrics at a glance — Total Sales, Total Profit, Total Transactions, and Quantity Sold.
+
+![Overview](overview.png)
+
+### Regional Analysis
+Sales and profit comparison across North, South, East, and West regions.
+
+![Regional Analysis](regional_analyze.png)
+
+### Categorical Analysis
+Sales distribution across product categories (Fashion, Electronics, Groceries, etc.)
+
+![Categorical Analysis](catagorical_analyze.png)
+
+### Sales Trend
+Monthly/quarterly sales trend with Month-over-Month growth %.
+
+![Sales Trend](sales_trend.png)
+
+### Top 10 Products Filter
+Top-performing products ranked by sales and quantity sold.
+
+![Top 10 Sales Filter](filter_top_10_sales.png)
+
+### Interactive Slicer
+Region and year slicers for dynamic filtering across the report.
+
+![Slicer](slicer.png)
+
 ## Key Insights
 - **East region** is the top performer — generating ₹56.0L in sales and 
   ₹18.1L in profit, nearly double any other single region
@@ -40,13 +72,6 @@ potential for profit growth.
 
 ## Tools Used
 Power BI (Data Modeling, DAX, Calendar Table, Time Intelligence, Visualizations)
-
-## Dashboard Pages
-- **Overview** — Key metrics (Total Sales, Profit, Transactions, Quantity Sold)
-- **Regional Analysis** — Sales & profit comparison by region
-- **Categorical Analysis** — Sales distribution by product category
-- **Sales Trend** — Monthly/quarterly sales trend with MoM growth %
-- **Filters & Slicers** — Interactive filtering by region, year, and product
 
 ## Files
 - `retail_sales_powerbi_project.pbix` — Complete Power BI project file
